@@ -73,20 +73,3 @@ p {
     font-size: 18px;
     color: #333333;
 }
-
-.huella-left, .huella-right {
-    position: fixed;
-    width: 50px; /* Ajusta el tamaño de la huella */
-    height: auto;
-    opacity: 0.5; /* Baja la opacidad de las huellas */
-}
-
-.huella-left {
-    left: 100px;
-    top: 100px; /* Ajusta la posición vertical */
-}
-
-.huella-right {
-    right: 20px;
-    top: 150px; /* Ajusta la posición vertical */
-}
