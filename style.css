@@ -1,0 +1,92 @@
+
+
+body {
+    margin: 0px;
+    font-family:"Poppins", sans-serif;
+    background-color: rgb(255, 251, 251);
+    color: rgb(0, 0, 0)
+}
+
+/* HEADER Y NAVEGACIÓN */
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+.nav-icon {
+    margin-right: 8px; 
+    vertical-align: middle; 
+}
+
+ nav {
+    background-color: #242697;
+    color: white;
+    padding: 10px 0 10px 0;
+    margin-top: 0px;
+ }
+
+ nav ul li {
+    display: inline;
+    margin: 0 25px;
+ }
+
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+a{
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 187, 61);
+}
+
+/* SECCIÓN PRINCIPAL */
+
+section {
+    padding-top: 25px;
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 48px;
+    color: #242697;
+}
+
+h2 {
+    font-size: 28px;
+    color: #242697;  
+}
+
+p {
+    font-size: 18px;
+    color: #333333;
+}
+
+.huella-left, .huella-right {
+    position: fixed;
+    width: 50px; /* Ajusta el tamaño de la huella */
+    height: auto;
+    opacity: 0.5; /* Baja la opacidad de las huellas */
+}
+
+.huella-left {
+    left: 100px;
+    top: 100px; /* Ajusta la posición vertical */
+}
+
+.huella-right {
+    right: 20px;
+    top: 150px; /* Ajusta la posición vertical */
+}
